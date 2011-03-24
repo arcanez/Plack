@@ -260,7 +260,7 @@ Specify a FCGI::ProcManager sub-class
 
 Daemonize the process.
 
-=item keep_stderr
+=item keep-stderr
 
 Send STDERR to STDOUT instead of the web server
 

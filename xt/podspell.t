@@ -133,6 +133,7 @@ standalone
 Starman
 startup
 STDERR
+stderr
 STDOUT
 Stevan
 Stosberg
