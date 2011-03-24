@@ -93,7 +93,7 @@ Plack::Middleware::HTTPExceptions - Catch HTTP exceptions
 =head1 DESCRIPTION
 
 Plack::Middleware::HTTPExceptions is a PSGI middleware component to
-catch exceptions from applicaitions that can be translated into HTTP
+catch exceptions from applications that can be translated into HTTP
 status code.
 
 Your application is supposed to throw an object that implements
@@ -110,7 +110,7 @@ If the code is in the 3xx range and the exception implements the 'location'
 method (HTTP::Exception::3xx does), the Location header will be set in the
 response, so you can do redirects this way.
 
-There's a CPAN module L<HTTP::Exception> and they are pefect to throw
+There's a CPAN module L<HTTP::Exception> and they are perfect to throw
 from your application to let this middleware catch and display, but
 you can also implement your own exception class to throw.
 

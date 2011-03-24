@@ -116,12 +116,12 @@ L<Plack::Middleware/RESPONSE CALLBACK> for details.
 
 =back
 
-=head1 OBJECT LIFECYCLE
+=head1 OBJECT LIFE CYCLE
 
 Objects for the derived classes (Plack::App::* or
 Plack::Middleware::*) are created at the PSGI application compile
 phase using C<new>, C<prepare_app> and C<to_app>, and the created
-object persists during the web server lifecycle, unless it is running
+object persists during the web server life cycle, unless it is running
 on the non-persistent environment like CGI. C<call> is invoked against
 the same object whenever a new request comes in.
 

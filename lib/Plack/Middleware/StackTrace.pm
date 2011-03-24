@@ -111,9 +111,9 @@ Plack::Middleware::StackTrace - Displays stack trace when your app dies
 
 This middleware catches exceptions (run-time errors) happening in your
 application and displays nice stack trace screen. The stack trace is
-also stored in the environment as a plaintext and HTML under the key
+also stored in the environment as a plain text and HTML under the key
 C<plack.stacktrace.text> and C<plack.stacktrace.html> respectively, so
-that middleware futher up the stack can reference it.
+that middleware further up the stack can reference it.
 
 This middleware is enabled by default when you run L<plackup> in the
 default I<development> mode.
@@ -150,7 +150,7 @@ if it's not the direct error thrown by the application.
 
   enable "StackTrace", no_print_errors => 1;
 
-Skips printing the text stacktrace to console
+Skips printing the text stack trace to console
 (C<psgi.errors>). Defaults to 0, which means the text version of the
 stack trace error is printed to the errors handle, which usually is a
 standard error.

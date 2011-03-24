@@ -62,7 +62,7 @@ __END__
 
 =head1 NAME
 
-Plack::Middleware::XSendfile - Sets X-Sendfile (or a like) header for frontends
+Plack::Middleware::XSendfile - Sets X-Sendfile (or a like) header for front ends
 
 =head1 SYNOPSIS
 

@@ -32,7 +32,7 @@ Plack::Handler::HTTP::Server::PSGI - adapter for HTTP::Server::PSGI
   % plackup -s HTTP::Server::PSGI \
       --host 127.0.0.1 --port 9091 --timeout 120
 
-=head1 BACKWARD COMPATIBLITY
+=head1 BACKWARD COMPATIBILITY
 
 Since Plack 0.99_22 this handler doesn't support preforking
 configuration i.e. C<--max-workers>. Use L<Starman> or L<Starlet> if
